@@ -1,6 +1,6 @@
 import { Routes, Route, NavLink } from 'react-router-dom'
+import Hubi from './pages/Hubi'
 
-const Hubi = () => <h1>Hubi</h1>
 const Tehtavat = () => <h1>Tehtävät ja ajastin</h1>
 const Asetukset = () => <h1>Asetukset</h1>
 
