@@ -6,10 +6,11 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'
 import App from './App.jsx'
 
+const queryClient = new QueryClient()
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <HashRouter>
-      <QueryClientProvider client={QueryClient}>
+      <QueryClientProvider client={queryClient}>
         <App />
       </QueryClientProvider>
     </HashRouter>
